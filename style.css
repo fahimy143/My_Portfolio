@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+  margin: 0;
+  background-image: url("images/header-shapesmobile@2x.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.introduction {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.body-main {
+  width: 75%;
+  padding-bottom: 20px;
+}
+
+.content {
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header {
+  background-color: #ffff;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-bar {
+    display: grid;
+    grid-template-columns: 4fr 0.5fr;
+    padding-top: 26px;
+    padding-left: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    background-color: white;
+    border-bottom-left-radius: 70px;
+  }
+
+  .body-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    margin-left: 34px;
+  }
+
+  .connect {
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 26px;
+  }
+
+  .connect_des {
+    color: rgba(127, 140, 255, 1);
+    padding: 10px;
+  }
+
+  .social-image ul {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex-direction: row;
+    margin-left: 34px;
+  }
+}
