@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #6070ff;
 }
 
 ul {
@@ -71,7 +71,7 @@ header {
   .nav-bar {
     display: grid;
     grid-template-columns: 4fr 0.5fr;
-    padding-top: 58px;
+    padding-top: 26px;
     padding-left: 24px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -105,7 +105,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 36px;
+    margin-left: 26px;
   }
 
   .connect_des {
