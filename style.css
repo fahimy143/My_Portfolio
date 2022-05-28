@@ -216,6 +216,21 @@ header {
     padding: 15px;
   }
 
+  .btn_see:hover {
+    background: #6070ff;
+    color: #ffff;
+  }
+
+  .btn_see:focus {
+    background: #2230d2;
+    color: #ffff;
+  }
+
+  .btn_see:active {
+    background: #ffff;
+    color: #6070ff;
+  }
+
   .title {
     margin-bottom: 60px;
   }
@@ -287,6 +302,21 @@ header {
     margin-bottom: 60px;
   }
 
+  .btn_resume:hover {
+    background: #2230d2;
+    color: #ffff;
+  }
+
+  .btn_resume:focus {
+    background: #2230d2;
+    color: #ffff;
+  }
+
+  .btn_resume:active {
+    background: #ffff;
+    color: #6070ff;
+  }
+
   .language {
     height: 24px;
     left: 12px;
@@ -296,6 +326,9 @@ header {
     line-height: 24px;
     margin-bottom: 36px;
     margin-left: 50px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .framework {
@@ -306,7 +339,10 @@ header {
     font-size: 20px;
     line-height: 24px;
     margin-left: 50px;
+    margin-right: 60px;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .line {
@@ -324,7 +360,9 @@ header {
     display: flex;
     align-items: center;
     margin-left: 50px;
+    margin-right: 60px;
     margin-top: 40px;
+    justify-content: space-between;
   }
 
   .skills ul {
@@ -336,7 +374,7 @@ header {
   .skills li {
     background-color: #f7f7f9;
     margin: 10px;
-    margin-right: 80px;
+    margin-right: 50px;
   }
 
   .skills li p {
