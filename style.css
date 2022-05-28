@@ -139,6 +139,10 @@ header {
     box-sizing: border-box;
   }
 
+  .all_posts {
+    display: grid;
+  }
+
   .info {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
