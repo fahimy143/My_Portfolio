@@ -139,9 +139,9 @@ header {
     box-sizing: border-box;
   }
 
-  .all_posts {
+  /* .all_posts {
     display: grid;
-  }
+  } */
 
   .info {
     font-family: 'Poppins', sans-serif;
@@ -158,9 +158,9 @@ header {
   }
 
   .info ul {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 10px; */
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
@@ -205,6 +205,16 @@ header {
     background-color: #ebebff;
     padding: 8px;
     border-radius: 8px;
+    float: right;
+    gap: 10px;
+  }
+
+  .html {
+    float: left;
+  }
+
+  .javaS {
+    float: left;
   }
 
   .btn_see {
