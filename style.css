@@ -395,4 +395,58 @@ header {
     padding-bottom: 30px;
     display: inline;
   }
+
+  .contact_me {
+    width: 375px;
+    height: fit-content;
+    top: 5410px;
+    background: #6070ff;
+    border-top-left-radius: 70px;
+  }
+
+  .contact_me_container {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact_title {
+    padding-top: 103px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .contact_des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .btn_touch {
+    width: fit-content;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #6070ff;
+    border-radius: 8px;
+    background-color: #ffff;
+  }
 }
