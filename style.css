@@ -398,10 +398,11 @@ header {
 
   .contact_me {
     width: 375px;
-    height: fit-content;
-    top: 5410px;
+    height: 650px;
     background: #6070ff;
     border-top-left-radius: 70px;
+    background-image: url("/images/contactLast.png");
+    background-repeat: no-repeat;
   }
 
   .contact_me_container {
