@@ -148,7 +148,7 @@ nav button {
   top: 24px;
   padding-top: 20px;
   margin-top: 10px;
-  background-image: url("/images/Snapshoot\ Portfolio.png");
+  background-image: url("/images/snap.png");
 }
 
 .info {
@@ -488,7 +488,7 @@ textarea {
   }
 
   .intro {
-    width: 375px;
+    max-width: 375px;
     height: 718px;
     left: 0.001px;
     top: 0.001px;
@@ -522,7 +522,7 @@ textarea {
     gap: 30px;
     padding-right: 30px;
     padding-top: 40px;
-    background-image: url("/images/contact\ form\ shapes-mobile.png");
+    background-image: url("/images/cf.png");
   }
 
   .body-main {
@@ -575,8 +575,8 @@ textarea {
   }
 
   .image {
-    width: 295px;
-    background-image: url("/images/Snapshoot\ Portfolio.png");
+    max-width: 100%;
+    background-image: url("/images/snap.png");
   }
 
   .info p {
