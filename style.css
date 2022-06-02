@@ -393,6 +393,7 @@ nav button {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  background-image: url("/images/contactform.png");
 }
 
 .contact_me_container {
@@ -458,16 +459,18 @@ textarea {
   background-color: #ffff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   nav button {
     display: inline-block;
     background: transparent;
     font-size: 1.8rem;
     cursor: pointer;
+    color: #2230d2;
   }
 
   header {
     background-color: #ffff;
+    width: 375px;
   }
 
   .nav-bar {
@@ -519,6 +522,7 @@ textarea {
     gap: 30px;
     padding-right: 30px;
     padding-top: 40px;
+    background-image: url("/images/contact\ form\ shapes-mobile.png");
   }
 
   .body-main {
@@ -594,16 +598,17 @@ textarea {
     margin-top: 114px;
     padding-bottom: 130px;
     border-top-right-radius: 70px;
-    padding-left: 100px;
   }
 
   .about_info {
     margin-top: 100px;
+    padding-left: 150px;
   }
 
   .skills {
-    margin-left: 160px;
+    margin-left: 100px;
     margin-right: 250px;
+    padding-left: 150px;
   }
 
   .skills ul {
@@ -612,24 +617,24 @@ textarea {
 
   .skills li {
     background-color: #f7f7f9;
-    width: 303px;
+    width: 203px;
     margin-left: 30px;
   }
 
   .language {
-    gap: 200px;
+    gap: 100px;
     justify-content: flex-start;
     margin-left: 30px;
   }
 
   .framework {
-    gap: 200px;
+    gap: 100px;
     justify-content: flex-start;
     margin-left: 30px;
   }
 
   .other_skills {
-    gap: 260px;
+    gap: 160px;
     justify-content: flex-start;
     margin-left: 30px;
   }
@@ -641,7 +646,8 @@ textarea {
     border-top-left-radius: 70px;
     background-image: url("/images/contactLast.png");
     background-repeat: no-repeat;
-    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
 
   .contact_title {
