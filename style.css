@@ -72,7 +72,7 @@ nav button {
 }
 
 .container {
-  background-image: url("/images/h.png");
+  background-image: url("./images/h.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 72px;
@@ -152,7 +152,7 @@ nav button {
   top: 24px;
   padding-top: 20px;
   margin-top: 10px;
-  background-image: url("/images/snap.png");
+  background-image: url("./images/snap.png");
 }
 
 .info {
@@ -397,7 +397,7 @@ nav button {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background-image: url("/images/contactform.png");
+  background-image: url("./images/contactform.png");
 }
 
 .contact_me_container {
@@ -571,7 +571,7 @@ textarea {
     gap: 30px;
     padding-right: 30px;
     padding-top: 40px;
-    background-image: url("/images/cf.png");
+    background-image: url("./images/cf.png");
   }
 
   .body-main {
@@ -625,7 +625,7 @@ textarea {
 
   .image {
     max-width: 100%;
-    background-image: url("/images/snap.png");
+    background-image: url("./images/snap.png");
   }
 
   .info p {
@@ -693,7 +693,7 @@ textarea {
     height: 650px;
     background: #6070ff;
     border-top-left-radius: 70px;
-    background-image: url("/images/contactLast.png");
+    background-image: url("./images/contactLast.png");
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 30px;
