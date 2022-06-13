@@ -494,6 +494,7 @@ textarea {
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    display: block;
   }
 
   .nav_container.active {
@@ -517,17 +518,13 @@ textarea {
     padding-left: 300px;
   }
 
-  .nav-bar {
-    display: block;
-  }
-
   .nav-links {
-   position: fixed;
-   flex-direction: column;
-   height: 812px;
-   top: 8rem;
-   align-items: flex-start;
-   display: none;
+    position: fixed;
+    flex-direction: column;
+    height: 812px;
+    top: 8rem;
+    align-items: flex-start;
+    display: none;
   }
 
   .nav-links li a {
