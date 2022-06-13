@@ -465,7 +465,8 @@ textarea {
 
 @media screen and (max-width: 480px) {
   nav button {
-    display: inline-block;
+    display: inline;
+    margin-top: -20px;
     background: transparent;
     font-size: 1.8rem;
     cursor: pointer;
@@ -479,6 +480,7 @@ textarea {
 
   .logo {
     display: inline;
+    margin-top: 100px;
   }
 
   header {
