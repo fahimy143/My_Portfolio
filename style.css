@@ -58,6 +58,10 @@ nav button {
   line-height: 20px;
 }
 
+.humburger {
+  display: none;
+}
+
 .intro {
   width: 1440px;
   height: fit-content;
@@ -468,6 +472,15 @@ textarea {
     color: #2230d2;
   }
 
+  nav button#close-menu-btn {
+    display: none;
+    color: #ffff;
+  }
+
+  .logo {
+    display: inline;
+  }
+
   header {
     background-color: #ffff;
     width: 375px;
@@ -483,8 +496,45 @@ textarea {
     line-height: 20px;
   }
 
+  .nav_container.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(5px);
+    background: rgba(96, 112, 255, 1);
+    background: rgba(96, 112, 255, 0.9);
+    overflow: hidden; /* Disable horizontal scroll */
+    transition: 0.5s;
+    color: white;
+  }
+
+  .humburger {
+    display: inline;
+    padding-left: 300px;
+  }
+
+  .nav-bar {
+    display: block;
+  }
+
   .nav-links {
-    display: none;
+   position: fixed;
+   flex-direction: column;
+   height: 812px;
+   top: 8rem;
+   align-items: flex-start;
+   display: none;
+  }
+
+  .nav-links li a {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ffff;
   }
 
   .intro {

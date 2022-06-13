@@ -14,17 +14,20 @@
     <main>
         <div class="intro">
             <header>
-              <div class="nav_conatiner">
+              <div class="nav_container">
                 <nav class="nav-bar">
                   <a href="#"><h3 class="logo">My Logo</h3></a>
                   <ul class="nav-links">
-                    <li><a class="item" href="#">Portfolio</a></li>
-                    <li><a class="item" href="#">About</a></li>
+                    <li><a class="item" href="#profile">Portfolio</a></li>
+                    <li><a class="item" href="#about">About</a></li>
                     <li class="contact">
-                      <a class="item" href="#">Contact</a>
+                      <a class="item" href="#contact">Contact</a>
                     </li>
                   </ul>
-                  <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                  <div class="humburger">
+                    <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                    <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+                  </div>
                 </nav>
               </div>
             </header>
@@ -269,7 +272,7 @@
             </div>
           </section>
          </div>
-        <div class="about_section">
+        <div class="about_section" id="about">
           <section class="about_me">
             <div class="about_info">
               <div class="about_me_title">
@@ -368,7 +371,7 @@
           </section>
         </div>
 
-        <div class="contact_section">
+        <div class="contact_section" id="contact">
           <section class="contact_me">
             <div class="conatiner contact_me_container">
               <div class="contact_title">
@@ -393,6 +396,9 @@
           </section>
         </div>
        
-    </main>  
+    </main> 
+    
+    
+    <script src="/main.js"></script>
 </body>
 </html>
