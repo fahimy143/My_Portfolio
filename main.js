@@ -33,4 +33,29 @@ list.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
 // --------------------------------------------------------------------------popup window
+btn1.onclick = function () {
+  modal.style.display = 'block';
+  modalTitle.textContent = cards[0].title;
+  modalDesc.textContent = cards[0].description;
+  modalImg.src = cards[0].img;
+  modaltag1.textContent = cards[0].tags[0];
+  modaltag2.textContent = cards[0].tags[1];
+  modaltag3.textContent = cards[0].tags[2];
+  modaltag4.textContent = cards[0].tags[3];
+  modallive.href = cards[0].liveDemoLink;
+  modalgithub.href = cards[0].githubLink;
+};
+
+btn2.onclick = function () {
+  modal.style.display = 'block';
+  modalTitle.textContent = cards[1].title;
+  modalDesc.textContent = cards[1].description;
+  modalImg.src = cards[1].img;
+  modaltag1.textContent = cards[1].tags[0];
+  modaltag2.textContent = cards[1].tags[1];
+  modaltag3.textContent = cards[1].tags[2];
+  modaltag4.textContent = cards[1].tags[3];
+  modallive.href = cards[1].liveDemoLink;
+  modalgithub.href = cards[1].githubLink;
+};
 
