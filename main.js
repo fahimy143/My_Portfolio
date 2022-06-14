@@ -13,7 +13,7 @@ menuBtn.addEventListener('click', () => {
 
 const closeNav = () => {
   menu.style.display = 'none';
-  container.classList.toggle('nav_container');
+  container.classList.remove('active');
   closeBtn.style.display = 'none';
   menuBtn.style.display = 'inline';
 };
