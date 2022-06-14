@@ -12,6 +12,10 @@ body {
   background-color: #e5e5e5;
 }
 
+main {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: #6070ff;
@@ -464,6 +468,14 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
+  main {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    max-width: 100%;
+  }
   nav button {
     display: inline;
     margin-top: -20px;
@@ -476,6 +488,7 @@ textarea {
   nav button#close-menu-btn {
     display: none;
     color: #ffff;
+    padding-right: 80px;
   }
 
   .logo {
@@ -517,7 +530,7 @@ textarea {
 
   .humburger {
     display: inline;
-    padding-left: 300px;
+    padding-left: 280px;
   }
 
   .nav-links {
