@@ -32,3 +32,5 @@ const toggleMenu = () => {
 list.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
+// --------------------------------------------------------------------------popup window
+
