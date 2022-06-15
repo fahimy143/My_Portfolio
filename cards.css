@@ -43,6 +43,7 @@
     color: #344563;
     font-family: sans-serif;
     font-style: normal;
+    font-weight: 400;
     display: flex;
   }
 
@@ -148,7 +149,7 @@
   left: 0;
   top: 0;
   width: 63%;
-  height: 100%;
+  height: 63%;
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
@@ -250,8 +251,16 @@
   }
 
   .modal-pics {
-    width: 80%;
+    width: 90%;
     height: 500px;
+  }
+
+  .modal-header {
+    margin-left: 50px;
+  }
+
+  .description {
+    margin-left: 40px;
   }
 
   .modal-img-div {
