@@ -34,6 +34,10 @@ header {
   background: #ffff;
 }
 
+.email_error {
+  border: 1px solid red;
+}
+
 .nav-bar {
   height: 100%;
   display: flex;
@@ -333,7 +337,7 @@ input {
 }
 
 textarea {
-  height: 48px;
+  height: 140px;
   width: 450px;
   border-radius: 8px;
 }
