@@ -1,0 +1,307 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+}
+
+.grid-card {
+  margin: 1rem;
+  background-color: white;
+  gap: 1rem;
+  border: 1px solid rgb(206, 218, 216);
+  border-radius: 10px;
+  padding: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-attribut {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    display: flex;
+    color: #091e42;
+    font-weight: 800;
+    font-size: 34px;
+    margin: 1px;
+  }
+
+  .card-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #344563;
+    font-family: sans-serif;
+    font-style: normal;
+    display: flex;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+}
+
+.card-attribut {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  display: flex;
+  color: #091e42;
+  font-weight: 800;
+  font-size: 34px;
+  margin: 1px;
+}
+
+.card-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #344563;
+  font-family: sans-serif;
+  font-style: normal;
+  display: flex;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.att1 {
+  color: #344563;
+  font-family: sans-serif;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.att2 {
+  color: #3e565e;
+  font-family: sans-serif;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.tag-section {
+  margin-bottom: 1rem;
+  display: flex;
+  padding-left: 1px;
+  margin-left: 1px;
+}
+
+.tag-div {
+  background: #ebebff;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+
+.tag {
+  font-family: sans-serif;
+  color: #1a31ff;
+  font-size: 11px;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 63%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-pics {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(231, 231, 231);
+}
+
+.modal-icon {
+  color: #6070ff;
+}
+
+.modal-links {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 10px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    max-width: 100%;
+  }
+
+  .card-img {
+    width: 55%;
+    height: 100%;
+    max-width: 600px;
+    min-width: 250px;
+    transition: width 2s;
+  }
+
+  .c-2 {
+    order: 1;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    margin: 4rem;
+    max-width: 1200px;
+  }
+
+  .boo-body {
+    display: flex;
+    gap: 20px;
+  }
+
+  .card-body {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    width: 50%;
+  }
+
+  .language {
+    flex-direction: column;
+  }
+
+  .exp {
+    display: none;
+  }
+
+  .modal {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-pics {
+    width: 80%;
+    height: 500px;
+  }
+
+  .modal-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(231, 231, 231);
+  }
+
+  .modal-details {
+    display: flex;
+  }
+
+  .modal-details p {
+    width: 61%;
+    padding: 1rem;
+  }
+
+  .modal-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 15px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

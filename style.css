@@ -133,124 +133,6 @@ nav button {
   margin-left: 34px;
 }
 
-.posts {
-  background: #ffff;
-  border: 1px solid #dfe1e6;
-  border-radius: 24px;
-  height: 496px;
-  width: 1156px;
-  margin: 142px;
-}
-
-.post {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 22px;
-}
-
-.image {
-  width: 544px;
-  height: 448px;
-  left: 24px;
-  top: 24px;
-  padding-top: 20px;
-  margin-top: 10px;
-  background-image: url("./images/snap.png");
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 24px;
-  gap: 24px;
-  width: 544px;
-  height: 445px;
-  left: 590px;
-  top: 24px;
-}
-
-.info h4 {
-  width: 496px;
-  height: 46px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
-}
-
-.info ul {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-}
-
-.canopy {
-  color: #344563;
-  width: 55px;
-  height: 16px;
-}
-
-.developer {
-  width: 88px;
-  height: 16px;
-  color: #7a869a;
-}
-
-.year {
-  width: 29px;
-  height: 16px;
-  color: #7a869a;
-}
-
-.info p {
-  width: 496px;
-  height: 50px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
-.btn {
-  background-color: #ebebff;
-  padding: 8px;
-  border-radius: 8px;
-}
-
-.btn_see {
-  display: inline-block;
-  margin-top: 30px;
-  background: #ffff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  padding: 15px;
-}
-
-.btn_see:hover {
-  background-color: #6070ff;
-  color: #ffff;
-}
-
-.btn_see:focus {
-  background: #2230d2;
-  color: #ffff;
-}
-
-.btn_see:active {
-  background: #ffff;
-  color: #6070ff;
-}
-
 .about_me {
   width: 1440px;
   height: 924px;
@@ -524,7 +406,7 @@ textarea {
     backdrop-filter: blur(5px);
     background: rgba(96, 112, 255, 1);
     background: rgba(96, 112, 255, 0.9);
-    overflow: hidden; /* Disable horizontal scroll */
+    overflow: hidden;
     transition: 0.5s;
     color: white;
   }
@@ -616,41 +498,6 @@ textarea {
     gap: 20px;
     list-style: none;
     flex-direction: row;
-  }
-
-  .posts {
-    margin-top: 105px;
-    background-color: #ffff;
-    align-items: center;
-    padding: 16px;
-    margin-left: 24px;
-    margin-right: 24px;
-    gap: 12px;
-    height: fit-content;
-    width: 327px;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    box-sizing: border-box;
-  }
-
-  .post {
-    flex-direction: column;
-  }
-
-  .image {
-    max-width: 100%;
-    background-image: url("./images/snap.png");
-  }
-
-  .info p {
-    width: 270px;
-    margin-bottom: 30px;
-    padding-right: 30px;
-  }
-
-  .info h4 {
-    width: 250px;
-    margin-bottom: 30px;
   }
 
   .about_me {
