@@ -450,6 +450,10 @@ textarea {
     color: #172b4d;
   }
 
+  .email_error {
+    border: 1px solid red;
+  }
+  
   .content {
     width: 327px;
     margin-top: 15px;
