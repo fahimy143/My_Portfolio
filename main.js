@@ -248,3 +248,19 @@ window.onclick = function (event) {
     modal.style.display = 'none';
   }
 };
+
+/* form validation */
+
+const submitBtn = document.getElementById('submit');
+const message = document.getElementById('error-text');
+const emailerror = document.getElementById('email');
+message.style.color = 'red';
+submitBtn.onclick = function (event) {
+  const email = document.getElementById('email').value;
+  const lowerCaseEmail = email.toLowerCase();
+  if (email !== lowerCaseEmail) {
+    message.textContent = 'Incorrect Email Format';
+    emailerror.classList.toggle('email_error');
+    event.preventDefault();
+  }
+};
