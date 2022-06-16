@@ -264,3 +264,26 @@ submitBtn.onclick = function (event) {
     event.preventDefault();
   }
 };
+
+/* Local Storage */
+
+const inputName = document.getElementById('name');
+const inputEmail = document.getElementById('email');
+const inputMessage = document.getElementById('message');
+const submitBTN = document.getElementById('submit');
+
+submitBTN.addEventListener('click', () => {
+  const name = inputName.value;
+  const email = inputEmail.value;
+  const message = inputMessage.value;
+
+  if (!name || !email || !message) {
+    return;
+  }
+
+  const data = { name, email, message };
+
+  localStorage.setItem('data', JSON.stringify(data));
+});
+
+
