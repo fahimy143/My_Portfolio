@@ -293,4 +293,3 @@ if (data) {
   inputEmail.value = data.eamil;
   inputMessage.value = data.message;
 }
-
