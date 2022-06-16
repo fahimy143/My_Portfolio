@@ -270,9 +270,8 @@ submitBtn.onclick = function (event) {
 const inputName = document.getElementById('name');
 const inputEmail = document.getElementById('email');
 const inputMessage = document.getElementById('message');
-const submitBTN = document.getElementById('submit');
 
-submitBTN.addEventListener('click', () => {
+document.addEventListener('input', () => {
   const name = inputName.value;
   const email = inputEmail.value;
   const message = inputMessage.value;
@@ -290,6 +289,6 @@ const data = JSON.parse(localStorage.getItem('data'));
 
 if (data) {
   inputName.value = data.name;
-  inputEmail.value = data.eamil;
+  inputEmail.value = data.email;
   inputMessage.value = data.message;
 }
