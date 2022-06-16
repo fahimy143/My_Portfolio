@@ -286,4 +286,11 @@ submitBTN.addEventListener('click', () => {
   localStorage.setItem('data', JSON.stringify(data));
 });
 
+const data = JSON.parse(localStorage.getItem('data'));
+
+if (data) {
+  inputName.value = data.name;
+  inputEmail.value = data.eamil;
+  inputMessage.value = data.message;
+}
 
