@@ -12,7 +12,7 @@
 - JavaScript
 - Linters
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://fahimy143.github.io/My_Portfolio/)
 
@@ -31,13 +31,12 @@ To get a local copy up and running follow these simple example steps.
   - Clone the github repository and set up linters
 
 
-## Authors
+## Author
 
 👤 **Fahimy**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@fahimy143](https://github.com/fahimy143)
+- LinkedIn: [Mustafa Fahimy](https://www.linkedin.com/in/mustafa-fahimy-307566236/)
 
 
 ## 🤝 Contributing
