@@ -208,6 +208,13 @@ nav button {
   padding: 10px;
 }
 
+.btn_resume:active {
+  transition: ease 4s;
+  box-shadow: inset 200px 0 0 0 #2230d2;
+  outline: none;
+}
+
+
 .btn_resume:hover {
   background-color: #2230d2;
   color: #ffff;
